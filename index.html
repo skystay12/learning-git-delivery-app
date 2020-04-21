@@ -34,64 +34,175 @@
           </div>
         </div>
       </div>
-    </header>
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="profileOptions"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Opciones</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="profileOptions"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Opciones</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
 
-          <div class="modal-body">
-            <ul>
-              <li>
-                <a href="#" class="fas fa-user"> Mi perfil</a>
-              </li>
-              <li>
-                <a href="#"
-                  ><i class="fas fa-map-marked-alt"></i> Mis direcciones</a
-                >
-              </li>
-              <li>
-                <a href="#" class="fas fa-credit-card"> Mis tarjetas</a>
-              </li>
-              <li>
-                <a href="#" class="text-danger"
-                  ><i class="fa fa-times-circle" aria-hidden="true"></i> Cerrar
-                  Sesión</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <div class="modal-body">
+              <ul>
+                <li>
+                  <a href="#" class="fas fa-user"> Mi perfil</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-map-marked-alt"></i> Mis direcciones</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="fas fa-credit-card"> Mis tarjetas</a>
+                </li>
+                <li>
+                  <a href="#" class="text-danger"
+                    ><i class="fa fa-times-circle" aria-hidden="true"></i>
+                    Cerrar Sesión</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <div class="search-container">
+          <form>
+            <input type="text" name="searchInput" id="searchInput" />
+            <button type="button" class="btn btn-primary btn-block">
+              Buscar
+            </button>
+          </form>
+        </div>
+        <div class="product-list-container">
+          <ul>
+            <li>
+              <a href="#">
+                <div class="product-image">
+                  <img src="img/producto1.jpg" alt="producto 1" />
+                </div>
+                <div class="product-info">
+                  <div class="product-info-inner">
+                    <div class="tags">
+                      <span>Descuento</span><span>Envío Gratis</span>
+                    </div>
+                    <h3 class="product-name">Burrito Especial</h3>
+                    <p class="restaurant">Restaurante de prueba</p>
+                    <div class="stars">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                  </div>
+                  <p class="product-price"><span>$14.99</span></p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="product-image">
+                  <img src="img/producto2.jpg" alt="producto 1" />
+                </div>
+                <div class="product-info">
+                  <div class="product-info-inner">
+                    <div class="tags">
+                      <span>Descuento</span><span>Envío Gratis</span>
+                    </div>
+                    <h3 class="product-name">Postre de la casa</h3>
+                    <p class="restaurant">Restaurante de prueba</p>
+                    <div class="stars">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                  </div>
+                  <p class="product-price"><span>$14.99</span></p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="product-image">
+                  <img src="img/producto4.jpg" alt="producto 1" />
+                </div>
+                <div class="product-info">
+                  <div class="product-info-inner">
+                    <div class="tags">
+                      <span>Descuento</span><span>Envío Gratis</span>
+                    </div>
+                    <h3 class="product-name">Donas glaseadas x6</h3>
+                    <p class="restaurant">Restaurante de prueba</p>
+                    <div class="stars">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                  </div>
+                  <p class="product-price"><span>$14.99</span></p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="product-image">
+                  <img src="img/producto5.jpg" alt="producto 1" />
+                </div>
+                <div class="product-info">
+                  <div class="product-info-inner">
+                    <div class="tags">
+                      <span>Descuento</span><span>Envío Gratis</span>
+                    </div>
+                    <h3 class="product-name">Mega Hmaburguesa</h3>
+                    <p class="restaurant">Restaurante de prueba</p>
+                    <div class="stars">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                  </div>
+                  <p class="product-price"><span>$14.99</span></p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
 
     <script src="js/jquery.js"></script>
     <script src="js/popper.js"></script>
